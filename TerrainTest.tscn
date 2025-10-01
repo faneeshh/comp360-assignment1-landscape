@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://b8bn6c62tjoyx"]
+[gd_scene load_steps=3 format=3 uid="uid://b8bn6c62tjoyx"]
 
+[ext_resource type="Script" uid="uid://ci2plt8pjw0s3" path="res://TerrainGrid.gd" id="1_33m1x"]
 [ext_resource type="Script" uid="uid://cakphf3tp718b" path="res://quad.gd" id="1_sjqfx"]
 
 [node name="Node3D" type="Node3D"]
+script = ExtResource("1_33m1x")
 
 [node name="Quad" type="MeshInstance3D" parent="."]
 script = ExtResource("1_sjqfx")
