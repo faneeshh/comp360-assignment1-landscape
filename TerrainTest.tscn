@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8bn6c62tjoyx"]
+
+[ext_resource type="Script" uid="uid://cakphf3tp718b" path="res://quad.gd" id="1_sjqfx"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Quad" type="MeshInstance3D" parent="."]
+script = ExtResource("1_sjqfx")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.8660254, 0.5, 0, -0.5, 0.8660254, 0, 2, 5)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
